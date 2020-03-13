@@ -14,7 +14,7 @@ class _SearchContainerState extends State<SearchContainer> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final _fromFocusNode = FocusNode();
   final _toFocusNode = FocusNode();
-  var test="";
+  
 
   var _mockLocations = [
     "mutare",

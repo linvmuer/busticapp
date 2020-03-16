@@ -72,7 +72,7 @@ class _SearchContainerState extends State<SearchContainer> {
           }, currentTime: DateTime.now(), locale: LocaleType.en);
         },
         child: Text('Tap To Select',
-            style: TextStyle(color: Colors.blue)));
+            style: TextStyle(color: Colors.blue.shade100,fontSize: 20)));
   }
 
   Widget _buildNumberofSeatsTextField() {

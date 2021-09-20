@@ -1,16 +1,18 @@
 # busticapp
 
-A new Flutter project.
+A app that l build as part of a school project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+##setup firebase services
+https://firebase.flutter.dev/docs/overview/
 
-A few resources to get you started if this is your first Flutter project:
+##to run 
+install packages  run flutter packages get
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+add config file for firebase in build folder at app level (google.json file from the firebase console instruction in setup firebase)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+##to run app
+
+flutter run  (emulator/physical device is connected)
